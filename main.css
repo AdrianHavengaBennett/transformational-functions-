@@ -1,0 +1,26 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #e84610;
+    
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-direction: normal;
+    animation-timing-function: ease;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(270deg);
+    }
+}
